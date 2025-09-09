@@ -5,16 +5,17 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-3">
             <div className="h-9 w-9 rounded-xl bg-primary-700 text-white grid place-items-center font-bold">L</div>
-            <span className="font-semibold">Lignum A.Ş.</span>
+            <img src="" alt="" />
           </div>
-          <p className="mt-3 text-gray-600">Orman ürünlerinde sürdürülebilir, güvenilir ve yenilikçi çözümler.</p>
+          <p className="mt-3 text-gray-600 font-serif">İster büyük bir otel projesi, ister zarif bir villa, ister mimari detaylarla bezenmiş bir ofis alanı olsun…
+            Bahar Orman Ürünleri, projenizin her adımında size doğru malzeme, doğru kalite ve doğru zamanlamayı garanti eder.</p>
         </div>
         <div>
           <h4 className="font-semibold">İletişim</h4>
           <ul className="mt-2 space-y-1">
-            <li>Tel: 0 (850) 000 00 00</li>
-            <li>E-posta: info@lignum.com</li>
-            <li>Adres: İstanbul, Türkiye</li>
+            <li>Tel: 0 (216) 394 84 00</li>
+            <li>E-posta: info@bahartimber.com</li>
+            <li>Adres: İstanbul Deri Organize Sanayi Bölgesi Dolap Cd. No: 16 No: H16 / A Parsel 3.Yol Tuzla 34957</li>
           </ul>
         </div>
         <div>
@@ -28,7 +29,7 @@ export default function Footer() {
       </div>
       <div className="border-t py-4 text-xs text-gray-500">
         <div className="container max-w-7xl flex items-center justify-between">
-          <span>© {new Date().getFullYear()} Lignum A.Ş. Tüm hakları saklıdır.</span>
+          <span> Copyright © {new Date().getFullYear()} 2025 Bahar Orman Ürünleri San. ve Tic. A.Ş</span>
           <div className="flex gap-4">
             <a href="#">KVKK</a>
             <a href="#">Gizlilik</a>
