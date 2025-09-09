@@ -20,8 +20,7 @@ export default function Header() {
       <div className="container max-w-7xl">
         <div className="h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3">
-            <div className="h-9 w-9 rounded-xl bg-primary-700 text-white grid place-items-center font-bold">L</div>
-            <span className="font-semibold">Lignum A.Ş.</span>
+            <img src="" alt="" />
           </Link>
 
           <nav className="hidden md:flex items-center gap-6">

@@ -26,6 +26,16 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
+    ],
+    "/iletisim": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/iletisim.js"
+    ],
+    "/kurumsal": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/kurumsal.js"
     ]
   },
   "ampFirstPages": []
