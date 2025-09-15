@@ -16,7 +16,7 @@ export default function Header() {
   const { pathname } = useRouter()
 
   return (
-    <header className="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-primary-100">
+    <header className="sticky top-0 z-50 bg-slate-300 backdrop-blur border-b border-primary-100">
       <div className="container max-w-7xl">
         <div className="h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3">
