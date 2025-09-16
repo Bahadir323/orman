@@ -20,7 +20,7 @@ export default function Header() {
       <div className="container max-w-7xl">
         <div className="h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3">
-            <img src="" alt="" />
+            <img src="/logo.png" alt="Logo" width={150} height={150} />
           </Link>
 
           <nav className="hidden md:flex items-center gap-6">

@@ -3,9 +3,8 @@ export default function Footer() {
     <footer className="border-t mt-10 bg-gray-300">
       <div className="container max-w-7xl py-10 text-sm text-gray-700 grid md:grid-cols-3 gap-6">
         <div>
-          <div className="flex items-center gap-3">
-            <div className="h-9 w-9 rounded-xl bg-primary-700 text-white grid place-items-center font-bold">L</div>
-            <img src="" alt="" />
+          <div className="flex items-center gap-3 ">
+          <img src="/logo.png" alt="Logo" width={200} height={200} />
           </div>
           <p className="mt-3 text-gray-600 font-serif">İster büyük bir otel projesi, ister zarif bir villa, ister mimari detaylarla bezenmiş bir ofis alanı olsun…
             Bahar Orman Ürünleri, projenizin her adımında size doğru malzeme, doğru kalite ve doğru zamanlamayı garanti eder.</p>

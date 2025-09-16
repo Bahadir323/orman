@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Lignum A.Ş. | Orman Ürünleri</title>
+        <title>Bahar Orman Ürünleri</title>
       </Head>
 
       <section className="bg-gradient-to-b from-primary-100 to-base">
@@ -25,7 +25,7 @@ export default function Home() {
       </section>
 
       <section className="container max-w-7xl py-12">
-        <h2 className="text-2xl md:text-3xl font-bold">Neden Lignum?</h2>
+        <h2 className="text-2xl md:text-3xl font-bold">Neden Bahar Orman Ürünleri?</h2>
         <div className="mt-6 grid md:grid-cols-3 gap-6">
           {[
             { t: 'Sürdürülebilir Kaynak', d: 'Sertifikalı ormanlardan sorumlu tedarik.'},
