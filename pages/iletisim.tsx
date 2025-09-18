@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function Page() {
   return (
-    <div className="bg-green-200 min-h-screen">
+    <div className="bg-green-200 min-h-screen ">
       <Head>
         <title>İletişim | Bahar Timber</title>
       </Head>

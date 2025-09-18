@@ -8,7 +8,7 @@ export default function Page() {
       </Head>
 
       {/* 1. Bölüm - Resim solda, yazı sağda */}
-      <div className='bg-primary-700 min-h-screen'>
+      <div className='bg-white min-h-screen'>
       <div className="container max-w-7xl py-10 grid md:grid-cols-2 gap-8 items-center">
         {/* Resim */}
         <img
@@ -18,8 +18,8 @@ export default function Page() {
         />
         {/* Yazılar */}
         <div>
-          <h1 className="text-3xl md:text-4xl text-white font-bold">Üretim Tesislerimiz</h1>
-          <p className="mt-3 text-white leading-relaxed">
+          <h1 className="text-3xl md:text-4xl text-black font-bold">Üretim Tesislerimiz</h1>
+          <p className="mt-3 text-black leading-relaxed">
             Modern teknolojilerle donatılmış makinelerimiz, hassas kesim yöntemleri
             ve titizlikle seçilmiş kaliteli tomruklarımızla oluşturduğumuz kontrplak
             üretim hattımız; mimari yapılardan endüstriyel projelere kadar geniş bir
@@ -34,7 +34,7 @@ export default function Page() {
       <div className="container max-w-7xl py-10 grid md:grid-cols-2 gap-8 items-center">
         {/* Yazılar */}
         <div className="order-2 md:order-1">
-          <p className="mt-3 text-white leading-relaxed">
+          <p className="mt-3 text-black leading-relaxed">
             Burada üretim makinelerimiz hakkında bilgi verebilirsiniz. Modern hatlarımız,
             yüksek verimlilik ve kaliteyi bir arada sunmaktadır.
           </p>
@@ -56,7 +56,7 @@ export default function Page() {
         {/* Yazılar */}
         <div>
           
-          <p className="mt-3 text-white leading-relaxed">
+          <p className="mt-3 text-black leading-relaxed">
             İç ve dış mekânlar için doğal zarafeti, dayanıklılıkla buluşturduğumuz deck ve parke üretim tesisimiz, projelerinize prestij katıyor. Teak, Iroko ve Ayous gibi yüksek dayanıklılığa sahip egzotik ağaçlar, estetik yüzeyler hâline geliyor.
           </p>
             
