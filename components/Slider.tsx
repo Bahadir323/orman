@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react'
 
 const slides = [
-  { src: '/slider/1.svg', caption: 'Sürdürülebilir ormancılık' },
-  { src: '/slider/2.svg', caption: 'Yüksek kalite kereste' },
-  { src: '/slider/3.svg', caption: 'Dayanıklı deck çözümleri' },
-  { src: '/slider/4.svg', caption: 'Endüstriyel kontrplak' },
+  { src: '/1.png', caption: 'Sürdürülebilir ormancılık' },
+  { src: '/2.png', caption: 'Yüksek kalite kereste' },
+  { src: '/3.png', caption: 'Dayanıklı deck çözümleri' },
+  { src: '/4.jpeg', caption: 'Endüstriyel kontrplak' },
 ]
 
 export default function Slider() {

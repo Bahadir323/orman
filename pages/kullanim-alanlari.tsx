@@ -30,13 +30,14 @@ const areas = [
     title: "Yat ve Tekne Güverteleri",
     description:
       "Teak, deniz suyuna karşı mükemmel direnç sağlar.İroko ise daha ekonomik bir alternatif olarak benzer dayanıklılığı sunar.",
-        image: "/areas/yat.jpg",
+        image: "/yat2.jpg",
   },
    {
     title: "Havuz Kenarları ve Spa Alanları",
     description:
       "Suya dayanıklı yapıları sayesinde Teak ve İroko deckler, kaymayı azaltır.UV ışınlarına karşı dayanıklıdır, renk solması minimaldir.Zarif, sıcak ve lüks bir atmosfer oluşturur.",
-        image: "/areas/havuz.jpg",
+        image: "/havuz.png",
+        
   },
 ];
 
