@@ -60,16 +60,30 @@ export default function Home() {
               d: "Optimum lojistik ve güçlü stok yönetimi.",
             },
           ].map((c) => (
-            <div key={c.t} className="rounded-2xl border p-6 bg-white">
-              <h3 className="font-semibold">{c.t}</h3>
-              <p className="text-sm text-gray-600 mt-2">{c.d}</p>
+            <div 
+                key={c.t} 
+                className="
+                      rounded-2xl border border-gray-200 
+                      p-6 bg-white shadow-md 
+                      hover:shadow-xl hover:scale-105 
+                      transition-all duration-300 ease-in-out
+                      
+                      "
+                            >
+                <h3 className="font-semibold text-lg text-gray-800">
+                  {c.t}
+                </h3>
+                <p className="text-gray-600 mt-2 leading-relaxed">
+                  {c.d}
+                </p>
             </div>
           ))}
         </div>
+
       </section>
 
       <div
-        className="relative text-white bg-no-repeat bg-center bg-cover "
+        className="relative text-white bg-no-repeat bg-center bg-cover mb-10 "
         style={{
           backgroundImage: "url('/ofiss.jpg')",
           backgroundPosition: "center", // hem yatay hem dikey ortalı
