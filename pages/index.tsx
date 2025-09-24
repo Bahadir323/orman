@@ -1,8 +1,19 @@
 import Head from "next/head";
 import Slider from "../components/Slider";
 import Link from "next/link";
+import Marquee from "react-fast-marquee";
 
 export default function Home() {
+  const foto = [
+    { src: "/ak.png" },
+    { src: "/sirenna.png" },
+    { src: "/woodd.png" },
+    { src: "/tann.png" },
+    { src: "/gardenstar.png" },
+    { src: "/nov.png" },
+  ];
+  const repeatedFoto = [...foto, ...foto].reverse();
+
   return (
     <>
       <Head>
@@ -48,38 +59,49 @@ export default function Home() {
         <div className="mt-6 grid md:grid-cols-3 gap-6">
           {[
             {
-              t: "Sürdürülebilir Kaynak",
-              d: "Sertifikalı ormanlardan sorumlu tedarik.",
+              t: "Misyonumuz",
+              d: "Doğadan gelen en değerli kaynağı, sürdürülebilirlik ilkesiyle işleyerek; müşterilerimize kaliteli, estetik ve uzun ömürlü ahşap ürünleri sunmak. Tedarikten teslimata kadar her aşamada güvenilir, hızlı ve çözüm odaklı hizmet anlayışımızla sektöre değer katmak.",
             },
             {
-              t: "Tutarlı Kalite",
-              d: "Sıkı kalite kontrol ve standart ölçüler.",
+              t: "Vizyonumuz",
+              d: "Ahşap sektöründe yenilikçi ürün ve hizmetlerimizle fark yaratarak, Türkiye’nin ve Avrupa’nın önde gelen doğal ahşap tedarikçileri arasında yer almak; doğaya saygılı, kaliteli üretimi ilke edinmiş ve müşteri memnuniyetini ön planda tutan bir marka olarak global pazarda güçlü bir konuma ulaşmak.",
             },
             {
-              t: "Zamanında Teslim",
-              d: "Optimum lojistik ve güçlü stok yönetimi.",
+              t: "Tarihimiz",
+              d: "Bahar Orman Ürünleri, 1958 yılından bu yana orman ürünleri alanında faaliyet gösteren köklü bir aile şirketidir. Ayous kereste başta olmak üzere, dünyanın farklı bölgelerinden ithal ettiği seçkin ağaç türlerini yüksek stok kapasitesiyle müşterilerine sunar.",
             },
           ].map((c) => (
-            <div 
-                key={c.t} 
-                className="
+            <div
+              key={c.t}
+              className="
                       rounded-2xl border border-gray-200 
                       p-6 bg-white shadow-md 
                       hover:shadow-xl hover:scale-105 
                       transition-all duration-300 ease-in-out
                       
                       "
-                            >
-                <h3 className="font-semibold text-lg text-gray-800">
-                  {c.t}
-                </h3>
-                <p className="text-gray-600 mt-2 leading-relaxed">
-                  {c.d}
-                </p>
+            >
+              <h3 className="font-semibold text-lg text-gray-800">{c.t}</h3>
+              <p className="text-gray-600 mt-2 leading-relaxed">{c.d}</p>
             </div>
           ))}
         </div>
-
+        <div className="relative w-full h-[150px] md:h-[200px] z-0 my-1 overflow-hidden">
+          <div className="absolute top-1/2 left-0 w-[120%] -translate-y-1/2  -ml-[20%]">
+            <Marquee speed={55} className="py-6 px-8">
+              {repeatedFoto.map((item, index) => (
+                <div className="flex items-center mx-8 gap-2" key={index}>
+                  <img
+                    src={item.src}
+                    width={150}
+                    height={75}
+                    className="object-contain"
+                  />
+                </div>
+              ))}
+            </Marquee>
+          </div>
+        </div>
       </section>
 
       <div
@@ -88,7 +110,6 @@ export default function Home() {
           backgroundImage: "url('/ofiss.jpg')",
           backgroundPosition: "center", // hem yatay hem dikey ortalı
           backgroundSize: "cover", // section'ı tamamen kaplar
-         
         }}
       >
         {/* Overlay ekleyerek içerik okunaklı hale getiriyoruz */}
