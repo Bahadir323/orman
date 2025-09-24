@@ -107,7 +107,7 @@ export default function Home() {
       <div
         className="relative text-white bg-no-repeat bg-center bg-cover mb-10 "
         style={{
-          backgroundImage: "url('/ofiss.jpg')",
+          backgroundImage: "url('/bahar.jpg')",
           backgroundPosition: "center", // hem yatay hem dikey ortalı
           backgroundSize: "cover", // section'ı tamamen kaplar
         }}
